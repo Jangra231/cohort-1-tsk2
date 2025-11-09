@@ -1,0 +1,41 @@
+@font-face {
+    font-family: ford;
+    src: url(./snowboarding_2/Snowboarding.ttf);
+}
+@font-face {
+    font-family: ford1;
+    src: url(./ice_caps/IceCaps.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url(./ford-mustang-gtr-sports-car-4k-wallpaper-uhdpaper.com-269@3@a.jpg);
+    background-size: cover;
+}
+h1{
+    color: aqua;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 160px;
+    font-family: ford;
+    font-weight: 700;
+}
+button{
+    color: aqua;
+    padding: 10px 25px;
+    background-color: transparent;
+    text-align: center;
+    margin: 27px 650px;
+    font-family: ford1;
+    font-size: 18px;
+}
+    
